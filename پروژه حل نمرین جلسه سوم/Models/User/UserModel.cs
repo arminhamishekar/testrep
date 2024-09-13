@@ -9,6 +9,7 @@ namespace پروژه_حل_نمرین_جلسه_سوم.Models.User
     internal class UserModel
     {
         public int Id { get; set; }
-        public int Name { get; set; }
+        public string Name { get; set; }
+        public string CreateDate{ get; set; }
     }
 }
